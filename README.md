@@ -1,6 +1,7 @@
-#sudo npm install
+# sudo npm install
 
-##template command:
+## template command:
+
 ```
 gulp - start
 gulp clean - delet directory dist
