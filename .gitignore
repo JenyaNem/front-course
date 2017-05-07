@@ -1,6 +1,6 @@
 /node_modules/
 /dist/
 /.git/
-/app/css/
+/src/css/
 /**/*.sketch
 /**/.DS_Store
