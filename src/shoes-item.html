@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Adidas Store Item</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <aside class="sidebar">
+    <a href="index.html" class="logo">
+      <img src="img/logo.svg" alt="adidas-logo">
+    </a>
+    <form class="search-form">
+      <label for="search-input" class="search-input-label">Search</label>
+      <input type="text" name="search" class="search-form-input" id="search-input">
+    </form>
+    <nav class="menu">
+      <a href="#" class="menu-item menu-item-chevron active-menu">Sports</a>
+      <nav class="sub-menu">
+        <a href="#" class="sub-menu-item active-menu">Shoes</a>
+        <a href="#" class="sub-menu-item">Clothing</a>
+        <a href="#" class="sub-menu-item">Accesories</a>
+      </nav>
+      <a href="#" class="menu-item">Brands</a>
+      <a href="#" class="menu-item">Micoach</a>
+    </nav>
+  </aside>
+  <main class="product-catalog">
+    <section class="content">
+      <div class="product">
+        <h1 class="product-heading">ULTRA BOOST</h1>
+        <button class="save-btn">SAVE</button>
+        <div class="color-selector-panel">
+          <button class="color-selector color-selector-silver"></button>
+          <button class="color-selector color-selector-blue"></button>
+          <button class="color-selector color-selector-gainsboro"></button>
+          <button class="color-selector color-selector-charcoal"></button>
+        </div>
+        <span class="sale-badge">SALE</span>
+        <h2 class="product-price">170$</h2>
+        <div class="product-image">
+          <img src="img/main-shoes.jpg"/>
+        </div>
+        <div class="product-image-slider">
+          <div class="product-images">
+            <div class="product-image-wrapper">
+              <a href="#">
+                <img class="product-image-item" src="img/secondary-shoes-1.jpg"/>
+              </a>
+            </div>
+            <div class="product-image-wrapper">
+              <a href="#">
+                <img class="product-image-item" src="img/secondary-shoes-2.jpg"/>
+              </a>
+            </div>
+            <div class="product-image-wrapper">
+              <a href="#">
+                <img class="product-image-item" src="img/secondary-shoes-3.jpg"/>
+              </a>
+            </div>
+            <div class="product-image-wrapper">
+              <img class="product-image-item product-image-active" src="img/secondary-shoes-4.jpg"/>
+            </div>
+          </div>
+          <div class="product-images-separator">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+          <div class="product-images-more">
+            <a class="more-photo-link" href="#">see<br/>more<br/>photos<br/></a>
+          </div>
+        </div>
+        <div class="product-description">
+          <p><span class="brand">Adidas</span> is a German multinational corporation, headquartered in Herzogenaurach, Germany, that designs and manufactures shoes, clothing and accessories.</p>
+        </div>
+        <button class="product-buy-button">BUY NOW</button>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="js/common.js"></script>
+
+</body>
+
+</html>
